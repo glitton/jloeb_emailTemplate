@@ -1,22 +1,16 @@
 Icons:
 https://i.ibb.co/bPLzh61/circle-facebook.png
-https://i.ibb.co/sRH7TK2/circle-twitter.png
-https://i.ibb.co/VQ9nCv3/circle-youtube.png
 https://i.ibb.co/K5wbWBS/circle-linkedin.png
 https://i.ibb.co/x8G1NMz/circle-instagram.png
 
 Logo:
 https://www.jloeb.org/wp-content/uploads/logo.png
 
-Gif Banner:
-https://i.ibb.co/hMhVbjT/stats2.gif
+Banner Image:
+https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/405100462_761592849345658_5374460364612221917_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=GKRqLoWQXIcAX8aYnf4&_nc_ht=scontent-sjc3-1.xx&oh=00_AfBRcy8ZJu_twIqVvTbIRhlFPMG8rR5Bvlft7xY7ykOlmA&oe=656AEE7C
 
-Man & Woman:
-https://i.ibb.co/Tmg3qbV/man-teal.jpg
-https://i.ibb.co/nQn29Sg/woman-teal.jpg
-
-Woman Quote:
-https://i.ibb.co/j852yw3/teal-circle.png
+Leslie Fisher Image:
+https://www.jloeb.org/wp-content/uploads/LeslieFisher.jpeg
 
 Icon Squares:
 https://i.ibb.co/TRwJYjq/newsletter.jpg
@@ -30,4 +24,4 @@ https://i.ibb.co/5KpjqYR/outlook.jpg
 https://i.ibb.co/8cpzpW0/yahoo.jpg
 
 Footer Logo:
-https://i.ibb.co/rdjLnjG/html-email-white.png
+https://www.jloeb.org/wp-content/uploads/logo.png
