@@ -26,14 +26,41 @@
       }
 
       @media screen and (max-width: 599.98px) {
+        .two-third-columns .padding,
+        .three-columns .padding {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+        .two-third-columns .padding.first,
+        .two-third-columns .padding.last {
+          padding-bottom: 0 !important;
+        }
+        img.one-third-col-img,
+        img.three-col-img-last {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
       }
 
       @media screen and (max-width: 399.98px) {
+        img.three-col-img {
+          width: 200px !important;
+          max-width: 200px !important;
+        }
       }
 
       /* Custom Dark Mode Colors */
-
+      :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+      }
       @media (prefers-color-scheme: dark) {
+        body,
+        center,
+        table {
+          background: #2d2d2d !important;
+          color: #ffffff !important;
+        }
       }
     </style>
     <!--[if (gte mso 9)|(IE)]>
@@ -115,18 +142,16 @@
         >
           <tr>
             <td style="padding: 0">
-              <table width="100%" style="border-spacing: 0" role="presentation">
+              <table
+                width="100%"
+                style="border-spacing: 0; background: #f7f7f7"
+                role="presentation"
+              >
                 <tr>
                   <td height="2" style="background: #bf202f"></td>
                 </tr>
                 <tr>
-                  <td
-                    style="
-                      background: #f7f7f7;
-                      text-align: center;
-                      padding: 12px 0px 8px 0px;
-                    "
-                  >
+                  <td style="text-align: center; padding: 12px 0px 8px 0px">
                     <a
                       href="https://www.facebook.com/JLOakEastBay"
                       target="_blank"
@@ -170,11 +195,14 @@
           </tr>
           <tr>
             <td style="padding: 0">
-              <table width="100%" style="border-spacing: 0" role="presentation">
+              <table
+                width="100%"
+                style="border-spacing: 0; background: #ffffff"
+                role="presentation"
+              >
                 <tr>
                   <td
                     style="
-                      background: #ffffff;
                       padding: 20px 0 20px 0;
                       margin: 0 auto;
                       text-align: center;
@@ -194,12 +222,7 @@
           </tr>
           <tr>
             <td
-              style="
-                background: #ffffff;
-                padding: 20px 0 20px 0;
-                margin: 0 auto;
-                text-align: center;
-              "
+              style="padding: 20px 0 20px 0; margin: 0 auto; text-align: center"
             >
               <img
                 src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/405100462_761592849345658_5374460364612221917_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=GKRqLoWQXIcAX8aYnf4&_nc_ht=scontent-sjc3-1.xx&oh=00_AfBRcy8ZJu_twIqVvTbIRhlFPMG8rR5Bvlft7xY7ykOlmA&oe=656AEE7C"
@@ -212,13 +235,7 @@
             </td>
           </tr>
           <tr>
-            <td
-              style="
-                background: #ffffff;
-                padding: 25px 25px;
-                letter-spacing: 0.5px;
-              "
-            >
+            <td style="padding: 25px 25px; letter-spacing: 0.5px">
               <p>
                 Dear Friends and Family,
                 <br />
@@ -268,16 +285,15 @@
           </tr>
           <tr>
             <td style="padding: 10px 0 10px 0">
-              <table width="100%" style="border-spacing: 0" role="presentation">
+              <table
+                width="100%"
+                style="border-spacing: 0; background: #f7f7f7"
+                role="presentation"
+              >
                 <tr>
                   <td
                     class="two-third-columns"
-                    style="
-                      padding: 0;
-                      font-size: 0;
-                      text-align: center;
-                      background: #f7f7f7;
-                    "
+                    style="padding: 0; font-size: 0; text-align: center"
                   >
                     <!--[if (gte mso 9)|(IE)]>
                       <table width="100%" style="border-spacing: 0;" role="presentation">
@@ -293,14 +309,12 @@
                         width: 100%;
                         max-width: 200px;
                         display: inline-block;
+                        background: #f7f7f7;
                       "
                       role="presentation"
                     >
                       <tr>
-                        <td
-                          class="padding first"
-                          style="padding: 15px 20px; background: #f7f7f7"
-                        >
+                        <td class="padding first" style="padding: 15px 20px">
                           <table
                             class="content"
                             style="border-spacing: 0; text-align: center"
@@ -308,17 +322,14 @@
                           >
                             <tr>
                               <td>
-                                <a href="https://example.com" target="_blank"
-                                  ><img
-                                    src="https://www.jloeb.org/wp-content/uploads/LeslieFisher.jpeg"
-                                    alt=""
-                                    width="100"
-                                    style="
-                                      max-width: 100px;
-                                      border-radius: 10px;
-                                    "
-                                    border="0"
-                                /></a>
+                                <img
+                                  class="one-third-col-img"
+                                  src="https://www.jloeb.org/wp-content/uploads/LeslieFisher.jpeg"
+                                  alt=""
+                                  width="150"
+                                  style="max-width: 200px; border-radius: 10px"
+                                  border="0"
+                                />
                               </td>
                             </tr>
                           </table>
@@ -338,14 +349,12 @@
                         width: 100%;
                         max-width: 400px;
                         display: inline-block;
+                        background: #f7f7f7;
                       "
                       role="presentation"
                     >
                       <tr>
-                        <td
-                          class="padding last"
-                          style="padding: 15px 0px; background: #f7f7f7"
-                        >
+                        <td class="padding last" style="padding: 15px 0px">
                           <table
                             class="content"
                             style="border-spacing: 0; text-align: center"
@@ -353,6 +362,7 @@
                           >
                             <tr>
                               <td
+                                class="two-third-content"
                                 style="text-align: left; vertical-align: middle"
                               >
                                 <p
@@ -392,16 +402,15 @@
           </tr>
           <tr>
             <td style="padding: 0">
-              <table width="100%" style="border-spacing: 0" role="presentation">
+              <table
+                width="100%"
+                style="border-spacing: 0; background: #ffffff"
+                role="presentation"
+              >
                 <tr>
                   <td
                     class="three-columns"
-                    style="
-                      padding: 0;
-                      font-size: 0;
-                      text-align: center;
-                      background: #ffffff;
-                    "
+                    style="padding: 0; font-size: 0; text-align: center"
                   >
                     <!--[if (gte mso 9)|(IE)]>
                       <table width="100%" style="border-spacing: 0;" role="presentation">
@@ -635,11 +644,14 @@
           <!-- START FOOTER -->
           <tr>
             <td style="padding: 0; background-color: #dde0e1">
-              <table width="100%" style="border-spacing: 0" role="presentation">
+              <table
+                width="100%"
+                style="border-spacing: 0; background: #ffffff"
+                role="presentation"
+              >
                 <tr>
                   <td
                     style="
-                      background: #ffffff;
                       padding: 20px 0 20px 0;
                       margin: 0 auto;
                       text-align: center;
